@@ -5,10 +5,6 @@ from webDemo.common.singleton import Singleton
 from logging import handlers
 from webDemo.common.constants import logs_records_pth
 
-
-
-
-
 class handleLog(Singleton):
     level_relations = {
         'debug': logging.DEBUG,

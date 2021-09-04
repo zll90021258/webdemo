@@ -11,11 +11,10 @@ def open_page():
     # Pass headless=False to launch() to see the browser UI
     # [playwright.chromium, playwright.firefox, playwright.webkit]
     for browser_type in [playwright.chromium]:
-        browser = browser_type.launch(args=["--start-maximized"],headless=False)
-        context = browser.new_context(viewport=None,record_video_dir="./videos",record_video_size={"width": 640, "height": 800},accept_downloads=True)
+        browser = browser_type.launch(headless=False,slow_mo=50)
+        context = browser.new_context(viewport={"width":1600,"height":750},record_video_dir="./videos",record_video_size={"width": 640, "height": 800},accept_downloads=True,ignore_https_errors=True)
         page = context.new_page()
-        page.goto("https://www.baidu.com/")
-        yield context, page
+        yield context,page
         browser.close()
         playwright.stop()
 

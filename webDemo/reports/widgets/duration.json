@@ -1,10 +1,10 @@
 [ {
-  "uid" : "88cb0de5e83cd463",
+  "uid" : "12fe073ba957ed87",
   "name" : "test_baidu_select",
   "time" : {
-    "start" : 1630812946877,
-    "stop" : 1630812980970,
-    "duration" : 34093
+    "start" : 1630819427115,
+    "stop" : 1630819466494,
+    "duration" : 39379
   },
   "status" : "passed",
   "severity" : "normal"

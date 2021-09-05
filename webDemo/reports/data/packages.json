@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCases.test_baidu.test_baidu_001",
+    "children" : [ {
+      "name" : "test_baidu_select",
+      "uid" : "88cb0de5e83cd463",
+      "parentUid" : "2466e954ffb05e8cacf6bb274250edf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630812946877,
+        "stop" : 1630812980970,
+        "duration" : 34093
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testCases.test_baidu.test_baidu_001"
+  } ]
+}

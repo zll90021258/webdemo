@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-HG55MN9",
+    "children" : [ {
+      "name" : "2180-MainThread",
+      "children" : [ {
+        "name" : "test_baidu_select",
+        "uid" : "88cb0de5e83cd463",
+        "parentUid" : "337ff725b4ab094b2ae3e509a119d9f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630812946877,
+          "stop" : 1630812980970,
+          "duration" : 34093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "337ff725b4ab094b2ae3e509a119d9f2"
+    } ],
+    "uid" : "ab53e0a5d11efda680ef6be84d268735"
+  } ]
+}

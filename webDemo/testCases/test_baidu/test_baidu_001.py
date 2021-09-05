@@ -1,6 +1,5 @@
 import pytest
 
-from webDemo.common.handleBase import handle_base
 from webDemo.casePages.baiduPage import baidu
 class Test_baidu():
     def test_baidu_select(self,open_page):

@@ -19,7 +19,7 @@ class handle_base():
         start_time = time.time()
         while True:
             end_time = time.time()
-            if end_time - start_time <= 10:
+            if end_time - start_time <= 15:
                 time.sleep(0.02)
                 if not ".document" in element:
                     try:

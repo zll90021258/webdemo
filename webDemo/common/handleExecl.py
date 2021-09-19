@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
+from singleton import Singleton
 
-
-class handleExcelData():
+class handleExcelData(Singleton):
     def __init__(self, excel_path, name=None):
         self.execl_path = excel_path
         self.name = name
